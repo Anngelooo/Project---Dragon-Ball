@@ -19,7 +19,7 @@ getPlanets().then (planets =>{
   </div>
 
  <ul class="list-group list-group-objects">
-    <li class="list-group-isDestroyed"> Is destroyed? ${element.isDestroyed}</li>
+    <li class="list-group-isDestroyed"> Is destroyed ${element.isDestroyed}</li>
     <li class="list-group-description"> ${element.description}</li>
 </ul>
     </div>
